@@ -19,7 +19,16 @@ print("hello this is a tutorial on git commands")
 #VIEWING AND CHANGING COMMITS 
 #git log --stat   --> shows the changes in all commits a/c to change in lines
 #git log -p       --> shows the change in all commits with diff
-#git log --pretty=short --> shows the change in commits in a single line
+#git log --pretty=oneline --> shows the change in commits in a single line
+
+#UNSTAGING AND UNMODIFYING FILES 
+#git restore --staged <file_name>  --> to remove any file from the staged area
+#git checkout <file_name>  --> to restore a file from the last commit
+#git checkout -f  --> to restore all files from the last commit
+
+
+
+  
 
 #git branch <brach_name>  --> to create a branch
 #git checkout <branch_name>  --> to navigate to the branch
