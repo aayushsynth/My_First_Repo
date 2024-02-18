@@ -43,6 +43,7 @@ print("hello this is a tutorial on git commands")
 #git branch --merged  --> shows all the branches that are merged already
 #git branch --no-merged  --> shows all the branches that are not merged already
 #git branch -d <branch_name>  --> to delete a branch
+#git push -d origin <branch_name>  --> to delete <branch_name> from github
 
 #MERGING TWO BRANCHES
 #git merge <branch_name>  --> to merge <branch_name> in the current branch you are in
