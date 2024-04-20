@@ -1,5 +1,5 @@
 print("hello this is a tutorial on git commands")
-
+#change
 #BASIC COMMANDS TO CHANGE THE FILE STATUS
 #git init --> to make any repo a git repo
 #git status  --> to check which files are staged or not
@@ -47,3 +47,8 @@ print("hello this is a tutorial on git commands")
 
 #MERGING TWO BRANCHES
 #git merge <branch_name>  --> to merge <branch_name> in the current branch you are in
+
+#CONFIG
+#git config -l  --> to view all the configurations like username, email, link to github etc.
+#git config --global user.name "<username>"  --> to add username
+#git config --global user.email "<email>"  --> to add email
