@@ -1,0 +1,5 @@
+conda env list --> to see all envs
+conda activate <env_name>  --> to activate an env
+conda create --name <env_name>  --> to create a new env
+conda install <lib_name>  --> to install a new library
+conda list --> to list all the installed libraries
